@@ -1,2 +1,2 @@
 #!/bin/bas
-head -n 10 /etc/passwd
+sudo head -n 10 /etc/passwd
