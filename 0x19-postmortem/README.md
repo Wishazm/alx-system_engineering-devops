@@ -1,6 +1,5 @@
 # PostMortem
-![debugging](https://raw.githubusercontent.com/Wishazm/alx-system_engineering-devops/0x19-postmortem/debugging.jpg)
-
+![App image](./debugging.jpg)
 
 ## Issue Summary:
 - **Duration:** May 10, 2024, 08:00 UTC to May 10, 2024, 12:00 UTC
