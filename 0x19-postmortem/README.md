@@ -1,5 +1,5 @@
 # PostMortem
-![Database Debacle](https://raw.githubusercontent.com/Wishazm/alx-system_engineering-devops/0x19-postmortem/debugging.png)
+![debugging](https://raw.githubusercontent.com/Wishazm/alx-system_engineering-devops/0x19-postmortem/debugging.jpg)
 
 
 ## Issue Summary:
