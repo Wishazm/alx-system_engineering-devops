@@ -1,0 +1,63 @@
+[34m
+* Datadog Agent 7 install script v1.31.6
+[0m
+[34m
+* Installing apt-transport-https, curl and gnupg
+[0m
+Hit:1 http://us-east-1.ec2.archive.ubuntu.com/ubuntu focal InRelease
+Hit:2 http://us-east-1.ec2.archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:3 http://us-east-1.ec2.archive.ubuntu.com/ubuntu focal-backports InRelease
+Ign:4 https://apt.datadoghq.com stable InRelease
+Hit:5 https://apt.datadoghq.com stable Release
+Hit:6 http://security.ubuntu.com/ubuntu focal-security InRelease
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+curl is already the newest version (7.68.0-1ubuntu2.22).
+gnupg is already the newest version (2.2.19-3ubuntu2.2).
+apt-transport-https is already the newest version (2.0.10).
+0 upgraded, 0 newly installed, 0 to remove and 193 not upgraded.
+[34m
+* Installing APT package sources for Datadog
+[0m
+gpg: key 32637D44F14F620E: "Datadog, Inc. Master key (2020-09-08) <package+masterkey@datadoghq.com>" not changed
+gpg: Total number processed: 1
+gpg:              unchanged: 1
+gpg: key E6266D4AC0962C7D: "Datadog, Inc. APT key (2023-04-20) (APT key) <package+aptkey@datadoghq.com>" not changed
+gpg: Total number processed: 1
+gpg:              unchanged: 1
+gpg: key 32637D44F14F620E: "Datadog, Inc. Master key (2020-09-08) <package+masterkey@datadoghq.com>" not changed
+gpg: Total number processed: 1
+gpg:              unchanged: 1
+gpg: key D3A80E30382E94DE: "Datadog, Inc <package@datadoghq.com>" not changed
+gpg: Total number processed: 1
+gpg:              unchanged: 1
+Ign:1 https://apt.datadoghq.com stable InRelease
+Hit:2 https://apt.datadoghq.com stable Release
+Reading package lists...
+  [33mInstalling package(s): datadog-agent datadog-signing-keys
+[0m
+Reading package lists...
+Building dependency tree...
+Reading state information...
+datadog-signing-keys is already the newest version (1:1.3.1-1).
+datadog-agent is already the newest version (1:7.53.0-1).
+0 upgraded, 0 newly installed, 0 to remove and 193 not upgraded.
+W: --force-yes is deprecated, use one of the options starting with --allow instead.
+[34m
+* Keeping old /etc/datadog-agent/datadog.yaml configuration file
+[0m
+/usr/bin/systemctl
+[34m* Starting the Datadog Agent...
+[0m
+[32m  Your Datadog Agent is running and functioning properly.
+[0m[32m  It will continue to run in the background and submit metrics to Datadog.
+[0m[32m  If you ever want to stop the Datadog Agent, run:
+
+      sudo systemctl stop datadog-agent
+
+  And to run it again run:
+
+      sudo systemctl start datadog-agent[0m
+
